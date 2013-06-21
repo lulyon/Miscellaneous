@@ -5,6 +5,34 @@
   > Created Time: 2013年06月21日 星期五 20时20分32秒
  ************************************************************************/
 
+
+/*************************************************************************
+* * 
+Given a chemical formula, calculate its molecular weight and quantity of each kind of elements. 
+test case:
+1
+7
+H 1.00
+C 12.00
+O 16.00
+N 14.00
+S 32.00
+Ca 40.00
+Fe 56.00
+4
+CO2
+CH4
+CaCO3
+Fe(SCN)3
+
+Result:
+44.00 C[1] O[2]
+16.00 H[4] C[1]
+100.00 C[1] O[3] Ca[1]
+230.00 C[3] N[3] S[3] Fe[1] 
+
+************************************************************************/
+
 #include <stdio.h>
 #include <string.h>
 #include <algorithm>
